@@ -1,19 +1,32 @@
-BODY { 
-  color: #000;
-  background: #ddd;
-  font-family: verdana, helvetica, sans-serif;
+BODY {
+    color: #000;
+    background: #ddd;
+    font-family: verdana, helvetica, sans-serif;
+}
+
+table {
+    border: 3px rgb(234, 0, 255) ridge;
+    width: 250px;
+    text-align: center;
 }
 
 .boton {
-  text-align: center;
-  width: 35px;
-  height: 25px;
+    background-color: rgb(252, 204, 253);
+    text-align: center;
+    width: 35px;
+    height: 25px;
 }
 
-.numero{
-  background-color: red;
+.numero {
+    background-color: rgb(247, 0, 255);
+    width: 35px;
+    height: 25px;
 }
 
-.display {
-  text-align:right;
+#resultado {
+    width: 90%;
+}
+
+#signo {
+    width: 90%;
 }

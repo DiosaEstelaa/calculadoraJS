@@ -1,64 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="calc.css">
+    <link rel="stylesheet" href="calc.css" />
 </head>
+
 <body>
     <table>
-
-<tr>
-    <td colspan="5"><input type="text" id="resultado" placeholder="0"></td>
-    <td><input type="text" name="" id="signo"></td>
-</tr>
-<tr> 
-    <td colspan="6"><img src="calc.gif" alt="Calculadora"></td>
-</tr>
-<tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td class="boton">RE</td>
-    <td class="boton"> <button> CE </button> </td>
-    <td class="boton"> <button> C</button></td>
-</tr>
-<tr>
-    <td class="boton"> <button> MC </button></td>
-    <td class="numero"> <button> 7 </button></td>
-    <td class="numero"> <button> 8 </button></td>
-    <td class="numero"> <button> 9 </button></td>
-    <td class="boton"> <button> / </button></td>
-    <td class="boton"> <button> sqrt </button></td>
-</tr>
-<tr>
-    <td class="boton"><button> MR </button></td>
-    <td class="numero"><button> 4 </button></td>
-    <td class="numero"><button> 5 </button></td>
-    <td class="numero"><button> 6 </button></td>
-    <td class="boton"><button> * </button></td>
-    <td class="boton"><button> % </button></td>
-</tr>
-<tr>
-    <td class="boton"><button> MS </button></td>
-    <td class="numero"><button> 1 </button></td>
-    <td class="numero"><button> 2 </button></td>
-    <td class="numero"><button> 3 </button></td>
-    <td class="boton"><button> - </button></td>
-    <td class="boton"><button> 1/x </button></td>
-</tr>
-<tr>
-    <td class="boton">M+</td>
-    <td class="numero">0</td>
-    <td class="boton">+/-</td>
-    <td class="boton">.</td>
-    <td class="boton"><button id="suma"></button></td>
-    <td class="boton">=</td>
-</tr>
-
+        <tr>
+            <td colspan="4"><input type="text" id="resultado" placeholder="0" /></td>
+            <td colspan="2"><input type="text" name="" id="signo" /></td>
+        </tr>
+        <tr>
+            <td colspan="6"><img src="calc.gif" alt="Calculadora" /></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="boton"><button id="RE">RE</button></td>
+            <td class="boton"><button id="CE">CE</button></td>
+            <td class="boton"><button id="C">C</button></td>
+        </tr>
+        <tr>
+            <td class="boton"><button id="MC">MC</button></td>
+            <td class="numero"><button id="7">7</button></td>
+            <td class="numero"><button id="8">8</button></td>
+            <td class="numero"><button id="9">9</button></td>
+            <td class="boton"><button id="/">/</button></td>
+            <td class="boton"><button id="sqrt">sqrt</button></td>
+        </tr>
+        <tr>
+            <td class="boton"><button id="MR">MR</button></td>
+            <td class="numero"><button id="4">4</button></td>
+            <td class="numero"><button id="5">5</button></td>
+            <td class="numero"><button id="6">6</button></td>
+            <td class="boton"><button id="*">*</button></td>
+            <td class="boton"><button id="%">%</button></td>
+        </tr>
+        <tr>
+            <td class="boton"><button id="MS">MS</button></td>
+            <td class="numero"><button id="1">1</button></td>
+            <td class="numero"><button id="2">2</button></td>
+            <td class="numero"><button id="3">3</button></td>
+            <td class="boton"><button id="resta">-</button></td>
+            <td class="boton"><button id="1/x">1/x</button></td>
+        </tr>
+        <tr>
+            <td class="boton"><button id="M+">M+</button></td>
+            <td class="numero"><button id="0">0</button></td>
+            <td class="boton"><button id="+/-">+/-</button></td>
+            <td class="boton"><button id="punto">.</button></td>
+            <td class="boton"><button id="suma">+</button></td>
+            <td class="boton"><button id="igual">=</button></td>
+        </tr>
     </table>
     <script src="calcu.js"></script>
 </body>
+
 </html>
