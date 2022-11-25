@@ -8,6 +8,8 @@ table {
     border: 3px rgb(234, 0, 255) ridge;
     width: 250px;
     text-align: center;
+    margin: auto;
+    margin-top: 200px;
 }
 
 .boton {
@@ -29,4 +31,8 @@ table {
 
 #signo {
     width: 90%;
+}
+
+#gifCalcu {
+    margin-right: 250px;
 }
